@@ -1,3 +1,6 @@
 class WordValidator:
     def is_valid_word(self, word):
-        return True 
+        if len(word) == 4:
+            return True
+        else:
+            return False
